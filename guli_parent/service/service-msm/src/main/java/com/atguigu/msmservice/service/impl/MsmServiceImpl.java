@@ -30,8 +30,8 @@ public class MsmServiceImpl implements MsmService {
         if(StringUtils.isEmpty(PhoneNumbers)) return false;
 
         DefaultProfile profile =
-                DefaultProfile.getProfile("default", "LTAI5tC3hxdr55RJDRAo9vY6",
-                        "57pfjdyEMDnr7Gr04kYvkwXs93B1P8");
+                DefaultProfile.getProfile("default", "",
+                        "");
         IAcsClient client = new DefaultAcsClient(profile);
         CommonRequest request = new CommonRequest();
 //request.setProtocol(ProtocolType.HTTPS);
